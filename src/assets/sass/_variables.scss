@@ -4,10 +4,10 @@
 $grid-wrapper-x-margin: 	16px !default;
 $grid-wrapper-y-margin: 	0 !default;
 $header-height: 			74px !default;
-$header-width: 				calc(100% - 32px) !default; // For fixed header
+$header-width: 				100% !default; // For fixed header
 $sidebar-width: 			260px !default;
 $sidebar-collapsed-width: 	60px !default;
-$main-body-radius: 			5px !default;
+$main-body-radius: 			0px !default;
 $footer-height: 			42px !default;
 $sidebar-right-width: 		360px !default;
 $sidebar-right-offset: 		-370px !default;
@@ -84,7 +84,7 @@ $default-card-tabs-active: 					$color-gray-100 !default;
 // Body
 $dark-font-color: 							$color-gray-500 !default;
 $dark-background-color: 					darken($color-gray-900, 4%) !default;
-$dark-main-bg-color: 						lighten($color-gray-900, 4%) !default;
+$dark-main-bg-color: 						lighten($color-gray-200, 15%) !default;
 
 // Header
 $dark-header-font-color: 					$color-gray-400 !default;
@@ -92,9 +92,9 @@ $dark-header-bg-color: 						$dark-background-color !default;
 $dark-header-border-color: 					lighten($dark-header-bg-color, 7%) !default;
 
 // Sidebar
-$dark-sidebar-font-color: 					$color-gray-500 !default;
-$dark-sidebar-bg-color: 					$color-gray-900 !default;
-$dark-sidebar-header-menu-color: 			$color-gray-300 !default;
+$dark-sidebar-font-color: 					#ff0038 !default;
+$dark-sidebar-bg-color: 					$color-gray-800  !default;
+$dark-sidebar-header-menu-color: 			#c72144 !default;
 
 // Sidebar Collapsed
 $dark-collapsed-active-font-color: 			$color-gray-500 !default;
@@ -104,7 +104,7 @@ $dark-collapsed-active-bg-color: 			darken($dark-sidebar-bg-color, 2%) !default;
 $dark-sidebar-right-tabs-font: 				$color-gray-200 !default;
 $dark-sidebar-right-pane-header-font: 		$color-gray-500 !default;
 $dark-sidebar-right-tabs-bg: 				$color-gray-600 !default;
-$dark-sidebar-right-tab-active-bg: 			$color-gray-800 !default;
+$dark-sidebar-right-tab-active-bg: 			$color-gray-100 !default;
 $dark-sidebar-right-bg-color: 				$color-gray-900 !default;
 $dark-sidebar-right-box-shadow: 			none !default;
 
@@ -116,35 +116,35 @@ $dark-footer-bg-color: 						$dark-background-color !default;
 $dark-breadcrumb-border-color: 				$color-gray-700 !default;
 
 // Pages
-$dark-card-header-font: 					$blue !default;
-$dark-card-bg: 								$color-gray-900 !default;
-$dark-card-tabs-active: 					$color-gray-800 !default;
+$dark-card-header-font: 					$color-gray-500 !default;
+$dark-card-bg: 								$dark-main-bg-color !default;
+$dark-card-tabs-active: 					$color-gray-600 !default;
 
 // ---------------------------------------------
 // Blue Theme
 // ---------------------------------------------
 // Body
-$blue-font-color: 							$color-gray-600 !default;
-$blue-background-color: 					darken($blue, 10%) !default;
-$blue-main-bg-color: 						$color-gray-100 !default;
+$blue-font-color: 							$color-gray-800 !default;
+$blue-background-color: 					darken(#ff0101, 10%) !default;
+$blue-main-bg-color: 						$white !default;
 
 // Header
-$blue-header-font-color: 					$color-gray-400 !default;
+$blue-header-font-color: 					$white !default;
 $blue-header-bg-color: 						$blue-background-color !default;
 $blue-header-border-color: 					lighten($blue-header-bg-color, 7%) !default;
 
 // Sidebar
-$blue-sidebar-font-color: 					$color-gray-300 !default;
-$blue-sidebar-bg-color: 					$blue !default;
-$blue-sidebar-header-menu-color: 			$color-gray-300 !default;
+$blue-sidebar-font-color: 					$color-gray-800 !default;
+$blue-sidebar-bg-color: 					$color-gray-400 !default;
+$blue-sidebar-header-menu-color: 			$color-gray-800 !default;
 
 // Sidebar Collapsed
 $blue-collapsed-active-font-color: 			$color-gray-500 !default;
 $blue-collapsed-active-bg-color: 			darken($blue-sidebar-bg-color, 3%) !default;
 
 // Sidebar Right
-$blue-sidebar-right-tabs-font: 				$color-gray-200 !default;
-$blue-sidebar-right-pane-header-font: 		$color-gray-200 !default;
+$blue-sidebar-right-tabs-font: 				$color-gray-700 !default;
+$blue-sidebar-right-pane-header-font: 		$color-gray-700 !default;
 $blue-sidebar-right-tabs-bg: 				darken($blue-background-color, 2%) !default;
 $blue-sidebar-right-tab-active-bg: 			darken($blue-background-color, 5%) !default;
 $blue-sidebar-right-bg-color: 				$color-gray-100 !default;
@@ -159,5 +159,5 @@ $blue-breadcrumb-border-color: 				$color-gray-700 !default;
 
 // Pages
 $blue-card-header-font: 					$blue !default;
-$blue-card-bg: 								$color-white !default;
+$blue-card-bg: 								$color-gray-200 !default;
 $blue-card-tabs-active: 					$color-gray-100 !default;
